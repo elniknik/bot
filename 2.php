@@ -52,7 +52,7 @@ class Circle extends Shape {
 }
 
 function getMinFigure(Shape $shape1, Shape $shape2) {
-    if($shape1->f() < $shape2->square()) {
+    if($shape1->square() < $shape2->square()) {
         return $shape1;
     }
 
