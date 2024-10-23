@@ -1,0 +1,1 @@
+mysqldump -u root admissions_bot > admissions_bot_dump.sql
