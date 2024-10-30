@@ -1,8 +1,4 @@
 @echo off
-xcopy 1.php C:\xampp\htdocs /Y /I
-xcopy 2.php C:\xampp\htdocs /Y /I
+xcopy chatbot C:\xampp\htdocs\chatbot /E /Y /I 
 
-
-start "" "http://localhost/1.php?email=alex@email.com&password=qwerty"
-start "" "http://localhost/2.php"
-
+start "" "https://current-stunning-kangaroo.ngrok-free.app/chatbot"
